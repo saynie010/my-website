@@ -1,0 +1,196 @@
+body {font-family: 'Poppins', sans-serif;
+
+
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  color: #2c3e50;
+}
+/* === General Page Styles === */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, #f0f4f8, #d9e2ec);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+}
+
+/* === Navigation Bar === */
+nav {
+  background-color: #333;
+  padding: 12px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+/* === Form Styles === */
+form {
+  max-width: 500px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #444;
+}/* === Hero Section === */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.hero-text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.hero-btn:hover {
+  background-color: #555;
+}
+
+.hero-img {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+/* === Footer === */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 14px;
+}
+/* === Page Section (About & Contact Pages) === */
+.page-section {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+/* === Social Links in Footer === */
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  color: #ffcc00;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+h1, h2 {
+  color: #222;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+button {
+  background-color: #333;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #555;
+}
+/* === Responsive Design for Small Screens === */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    padding-right: 0;
+  }
+
+  .hero-img {
+    margin-top: 20px;
+  }
+
+  .skills, .page-section {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 10px 5px;
+  }
+}
+a, button {
+  transition: all 0.3s ease;
+}
